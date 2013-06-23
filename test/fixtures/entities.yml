@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  idea: 
+  name: MyString
+  deleted_at: 2013-06-23 20:46:11
+
+two:
+  idea: 
+  name: MyString
+  deleted_at: 2013-06-23 20:46:11
