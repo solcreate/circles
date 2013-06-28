@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Seed:</b>
+  <%= @node.seed %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @node.name %>
+</p>
+
+<p>
+  <b>Deleted at:</b>
+  <%= @node.deleted_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_node_path(@node) %> |
+<%= link_to 'Back', nodes_path %>

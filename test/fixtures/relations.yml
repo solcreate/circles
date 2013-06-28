@@ -1,13 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  idea: 
+  seed: 
   related_id: 1
-  type_id: 1
-  sort_no: 1
+  type: 
 
 two:
-  idea: 
+  seed: 
   related_id: 1
-  type_id: 1
-  sort_no: 1
+  type: 

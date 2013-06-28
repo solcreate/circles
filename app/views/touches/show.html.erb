@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @touch.name %>
+</p>
+
+<p>
+  <b>Decimal place:</b>
+  <%= @touch.decimal_place %>
+</p>
+
+<p>
+  <b>Html:</b>
+  <%= @touch.html %>
+</p>
+
+<p>
+  <b>Source sql:</b>
+  <%= @touch.source_sql %>
+</p>
+
+
+<%= link_to 'Edit', edit_touch_path(@touch) %> |
+<%= link_to 'Back', touches_path %>

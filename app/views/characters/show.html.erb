@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Seed:</b>
+  <%= @character.seed %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @character.name %>
+</p>
+
+<p>
+  <b>Touch:</b>
+  <%= @character.touch %>
+</p>
+
+<p>
+  <b>Default:</b>
+  <%= @character.default %>
+</p>
+
+<p>
+  <b>Length:</b>
+  <%= @character.length %>
+</p>
+
+<p>
+  <b>Sort no:</b>
+  <%= @character.sort_no %>
+</p>
+
+<p>
+  <b>Deleted at:</b>
+  <%= @character.deleted_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_character_path(@character) %> |
+<%= link_to 'Back', characters_path %>

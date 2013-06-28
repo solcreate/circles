@@ -1,0 +1,29 @@
+<h1>Listing shapes</h1>
+
+<table>
+  <tr>
+    <th>Node</th>
+    <th>Character</th>
+    <th>Value</th>
+    <th>Display</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @shapes.each do |shape| %>
+  <tr>
+    <td><%= shape.node %></td>
+    <td><%= shape.character %></td>
+    <td><%= shape.value %></td>
+    <td><%= shape.display %></td>
+    <td><%= link_to 'Show', shape %></td>
+    <td><%= link_to 'Edit', edit_shape_path(shape) %></td>
+    <td><%= link_to 'Destroy', shape, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Shape', new_shape_path %>

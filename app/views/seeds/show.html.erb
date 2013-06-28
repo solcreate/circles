@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @seed.name %>
+</p>
+
+<p>
+  <b>Sort no:</b>
+  <%= @seed.sort_no %>
+</p>
+
+<p>
+  <b>Deleted at:</b>
+  <%= @seed.deleted_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_seed_path(@seed) %> |
+<%= link_to 'Back', seeds_path %>

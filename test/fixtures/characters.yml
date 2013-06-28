@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  seed: 
+  name: MyString
+  touch: 
+  default: MyString
+  length: 1
+  sort_no: 1
+  deleted_at: 2013-06-28 08:06:05
+
+two:
+  seed: 
+  name: MyString
+  touch: 
+  default: MyString
+  length: 1
+  sort_no: 1
+  deleted_at: 2013-06-28 08:06:05
